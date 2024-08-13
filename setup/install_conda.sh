@@ -7,4 +7,4 @@ conda create -n $CONDA_ENV_NAME python=3.8
 
 eval "$(conda shell.bash hook)"
 conda activate $CONDA_ENV_NAME
-pip install -r requirements.txt
+create --name $CONDA_ENV_NAME --file ./setup/requirements.txt

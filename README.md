@@ -21,10 +21,10 @@ DiffPoseTalk: Speech-Driven Stylistic 3D Facial Animation and Head Pose Generati
 
 ## Setup
 
-- Download FLAME-related files following this [instruction](./models/data/README.md) and setup the enviorments.
-  ```bash
+- Download FLAME-related files following this [instruction](./models/data/README.md) and setup the enviornments.
+  ```shell
   bash ./setup/fetch_data.sh
-  bash ./install_conda.sh
+  bash ./setup/install_conda.sh
   ```
 - (Optional) If you want to train with the `HDTF_TFHP`, please follow this [instruction](./datasets/HDTF_TFHP/README.txt) to download the processed dataset.
 
